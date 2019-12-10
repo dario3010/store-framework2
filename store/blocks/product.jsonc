@@ -34,7 +34,9 @@
   },
   "sku-selector": {
     "props": {
-    "hideImpossibleCombinations": false
+    "showValueNameForImageVariation": false,
+    "showVariationsLabels": true,
+    "showVariationsErrorMessage": true
     }
   },
   "flex-layout.col#right": {
