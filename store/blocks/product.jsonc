@@ -34,7 +34,7 @@
   },
   "sku-selector": {
     "props": {
-    "showValueNameForImageVariation": false,
+    "initialSelection": "empty",
     "showVariationsLabels": true,
     "showVariationsErrorMessage": true
     }
