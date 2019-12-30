@@ -1,0 +1,14 @@
+{
+    "vtex.menu@2.x:menu#menuFirstCategories":{
+        "children": [
+            "menu-item#los-pumas",
+            "menu-item#jaguares",
+            "menu-item#promociones",
+            "menu-item#destacados",
+            "menu-item#login"
+        ],
+        "props":{
+            "orintation": "horizontal"
+        }
+    }   
+}

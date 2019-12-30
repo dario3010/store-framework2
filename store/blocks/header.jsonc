@@ -1,0 +1,62 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#categories-search",
+            "header-row#logo-redes"
+            //"header-row#menu"
+        ]
+    },
+    /*"header-layout.mobile": {
+        "children": [
+            "header-row#categories-search",
+            "header-row#logo-redes-mobile",
+            "header-row#menu-mobile"
+        ]
+    },*/
+    "header-row#categories-search":{
+        "children":[
+        "vtex.menu@2.x:menu#menuFirstCategories",
+        "header-spacer",
+        "search-bar"
+        //"flex-layout.col#imgLogos"
+        ],
+        "props":{
+            "inverted":true,
+            "blockClass": "submenuCategorias"
+        }
+    },
+    "header-row#logo-redes": {
+        "children":[
+            "rich-text#tienda-oficial",
+            "logo"
+        ],
+        "props": {
+            "base":false,
+            "blockClass": "claseDePrueba"
+        }
+    },
+    "rich-text#tienda-oficial":{
+        "props":{
+            "text":"TIENDA OFICIAL",
+            "textPosition":"CENTER"
+        }
+    },
+    "logo":{
+        "props":{
+            "title":"logo",
+            "url": "//d26lpennugtm8s.cloudfront.net/stores/142/220/themes/common/logo-1109587133-1572440714-d082bb74420965d9c5b528433ccebe2e1572440715.png?0"
+        }
+    }
+}

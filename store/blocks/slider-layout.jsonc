@@ -1,0 +1,37 @@
+{
+    "slider-layout#home": {
+        "children": ["info-card#1", "info-card#2"],
+        "props": {
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": false
+          },
+          "itemsPerPage":{
+              "desktop": 1,
+              "tablet":1,
+              "phone":1
+          },
+          "height": 420
+        }
+      },
+       
+      "info-card#1": {
+        "props": {
+          "imageUrl": "//d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/slide-1576247266379-5873596686-5bab679f2a2e5d54af9b46583502083d1576247269.png?1799212669",
+          "isFullModeStyle": true,
+          "headline": "Black Friday",
+          "callToActionText": "Subscribe",
+          "textPosition": "center"
+        }
+      },
+       
+      "info-card#2": {
+        "props": {
+          "imageUrl": "//d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/slide-1564056260605-8983234196-8ba41c353dc26aba149c99847cebe9ce1564055459.jpg?1799212669",
+          "isFullModeStyle": true,
+          "headline": "Black Friday",
+          "callToActionText": "Subscribe",
+          "textPosition": "center"
+        }
+      }
+}

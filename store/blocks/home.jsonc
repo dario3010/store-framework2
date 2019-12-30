@@ -1,7 +1,80 @@
 {
   "store.home": { 
     "blocks": [
-      
+      "slider-layout#home",
+      "rich-text",
+      "flex-layout.row#banners1",
+      "flex-layout.row#banners2",
+      "shelf"
     ]
+  },
+  "flex-layout.row#banners1": {
+    "children": [
+      "image#bannerhome1-1",
+      "image#bannerhome1-2"
+    ]
+  },
+  "flex-layout.row#banners2": {
+    "children": [
+      "image#bannerhome2-1",
+      "image#bannerhome2-1",
+      "image#bannerhome2-3"
+    ]
+  },
+  "rich-text": {
+    "props": {
+      "text": ""
+    }
+  },
+  "image#bannerhome1-1": {
+    "props": {
+      "src": "https://d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/img-1732132015-1572441967-0885b1d80fc2d6c50e37ae485bdf95711572441968-1024-1024.jpg",
+      "max-height": 398,
+      "max-width": 540,
+      "link": {
+        "url": "google.com.ar"
+      },
+      "blockClass": "pruebita"
+    }
+  },
+  "image#bannerhome1-2": {
+    "props": {
+      "src": "//d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/img-780443155-1572441990-e2eea159180cd9cf9e6360d1074140fe1572441990-1024-1024.jpg?1799212669",
+      "max-height": 398,
+      "max-width": 540,
+      "link": {
+        "url": "google.com.ar"
+      }
+    }
+  },
+  "image#bannerhome2-1": {
+    "props": {
+      "src": "https://d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/img-487413821-1572631262-2e788be13b28b3e109158e581c52ebf91572631262-1024-1024.jpg?1799212669",
+      "max-height": 398,
+      "max-width": 540,
+      "link": {
+        "url": "google.com.ar"
+      }
+    }
+  },
+  "image#bannerhome2-2": {
+    "props": {
+      "src": "https://d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/img-1383994115-1573566634-dddef151f5d02f9f403726ca39524efd1573566634-1024-1024.png?1799212669",
+      "max-height": 398,
+      "max-width": 540,
+      "link": {
+        "url": "google.com.ar"
+      }
+    }
+  },
+  "image#bannerhome2-3": {
+    "props": {
+      "src": "//d26lpennugtm8s.cloudfront.net/stores/142/220/themes/new_linkedman/img-1409213059-1572442181-2262b9973ebbafbc832f200864efc46d1572442181-1024-1024.jpg?1799212669",
+      "max-height": 398,
+      "max-width": 540,
+      "link": {
+        "url": "google.com.ar"
+      }
+    }
   }
 }

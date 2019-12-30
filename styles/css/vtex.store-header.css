@@ -1,0 +1,19 @@
+.searchBarContainer {
+    width: 200px;
+    margin-right: 30px;
+}
+.headerStickyRow--submenuCategorias{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerRow--submenuCategorias {
+    width: 100%;
+}
+.searchBarContainer--submenuCategorias {
+    width: 150px!important;
+}
+.headerRowContentContainer--claseDePrueba {
+    background: #06359d;
+}
